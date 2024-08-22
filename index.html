@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasks</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav id="main">
+        <ul>
+            <li>
+                <h1>Tasks</h1>
+            </li>
+            <li><img id="profile" src="Assets/profile.jpg" alt="Profile Pic" /></li>
+        </ul>
+    </nav>
+
+    <nav id="tasklists">
+        <ul>
+            <li><span id="tasklist-0">My Tasks</span></li>
+            <li><span id="tasklist-1">Projects</span></li>
+            <li><span id="tasklist-2">College Work</span></li>
+            <li></li>
+        </ul>
+    </nav>
+
+    <hr />
+
+    <div id="tasks">
+        <div id="addtasks">
+            <form id="taskForm">
+                <input type="text" id="taskInput" placeholder="Add a new task" required>
+                <button type="submit">Add Task</button>
+            </form>
+        </div>
+
+        <div id="incomplete">
+            <ul id="incomplete-tasks">
+                <!-- incomplete tasks would be added here dynamically -->
+            </ul>
+        </div>
+
+        <hr />
+
+        <div id="completed">
+            <button style="background: none; border: none;">
+                <div id="heading-completed">
+                    <h4 id="cursor-completed">Completed <span id="taskcount"></span> <span id="arrow"><i id="dropdown"
+                                class="fa-solid fa-arrow-up"></i></span></h4>
+                </div>
+            </button>
+            <ul id="completed-tasks">
+                <!-- completed tasks goes here -->
+            </ul>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/cd431ba825.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
