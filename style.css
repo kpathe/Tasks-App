@@ -63,7 +63,7 @@ body {
 button[type="submit"] {
   background-color: #3a82f6; /* Primary color for the button */
   color: white;
-  padding: 10px 15px;
+  padding: 5px 15px;
   border: none;
   border-radius: 4px;
   font-size: 16px;
